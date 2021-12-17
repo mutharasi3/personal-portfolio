@@ -1,0 +1,134 @@
+.container{
+    width: 900px;
+    margin: 0 auto;
+    line-height: 1.2;
+    /* height: 700px; */
+
+    /* font-family: 'serif'; */
+    /* background-color: white; */
+}
+.left-sec{
+    background-color:#efefef;
+    flex-basis: 70%;
+    align-content:left;
+    padding: 2px 20px;
+    border: 2px solid;
+    line-height: 30px;
+    
+}
+.content-sec {
+    display: flex;
+}
+.left-sec h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px 10px;
+    color:black;
+    font-family: 'Noto Serif', serif;
+}
+.content-sec h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 270px;
+    background-color: blue;
+    padding: -4px 10px;
+}
+.content-sec h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    padding: 8px 10px;
+    font-family: 'PT Serif', serif;
+}
+.section-heading1 {
+    font-size: 18px;
+    padding:6px 10px ;
+    
+    line-height: 1.5;
+}
+
+.content-sec h3{
+    font-size:19px;
+    padding: 3px 10px;
+    font-weight: bold;
+    line-height: 20px;
+
+}
+.content-sec h4{
+    font-size:17px ;
+    padding: 1px 10px;
+    line-height: 30px;
+}
+.content-sec h5{
+    font-size: 17px;
+    padding: 1px 10px;
+}
+.right-sec{
+    flex-basis: 30%;
+    background-color:#3daae9;
+    align-content: right;
+    padding: 2px 20px;
+    border: 2px solid black;
+    line-height: 1.5;
+}
+.right-sec img{
+    border-radius: 70%;
+    height: 100px;
+    width: 100px;
+    padding: 30px 90px;
+}
+.contact-sec{
+    border-radius: 25px;
+}
+.contact-sec a{
+    text-decoration: none;
+    padding: 2px 10px;
+    line-height: 25PX;
+    color:black;
+}
+.year{
+    font-size: 17px;
+    padding: 1px 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #008700;
+    font-weight: bold;
+}
+.percentage{
+    font-size: 17px;
+    padding: 1px 90px;
+}
+
+.about{
+    margin-inline-start: 15px;
+}
+.about1 hr{
+    border: 1px solid green;
+    color: yellow;
+}
+.about li{
+    
+    margin: 3px;
+    padding: 3px 30px;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    width: 90px;
+    line-height: 25px;
+     text-align: center;
+    /* margin-inline-start: 5px; */
+    background-color: white;
+}
+.about1 li{
+    width: 80px;
+    margin: 3px;
+    padding: 6px 50px;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    background-color: white ;
+}
